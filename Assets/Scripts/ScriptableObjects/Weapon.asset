@@ -16,4 +16,6 @@ MonoBehaviour:
   shootingPattern: 0
   bullet: {fileID: 1909692303569551277, guid: 7702dab56313af14096c81784770998d, type: 3}
   projectileSpeed: 14.94
-  projectileLifetime: 0.48
+  projectileLifetime: 0.7
+  contactDamage: 1
+  secondaryDamage: 0
