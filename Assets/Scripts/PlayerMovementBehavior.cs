@@ -16,12 +16,19 @@ public class PlayerMovementBehavior : MonoBehaviour
 
     public GameShipSystemController gameSystemController;
 
+    public Rigidbody2D gameSystemRB;
+
     // Start is called before the first frame update
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
 
         playerWeaponBehavior = transform.GetChild(0).GetComponent<PlayerWeaponBehavior>();
+
+        if(gameSystemController != null)
+        {
+            gameSystemRB = gameSystemController.GetComponent<Rigidbody2D>();
+        }
     }
 
     // Update is called once per frame
@@ -41,8 +48,8 @@ public class PlayerMovementBehavior : MonoBehaviour
 
         float speedMod;
 
-        if(gameSystemController != null) {
-            speedMod = gameSystemController.movingSpeed;
+        if(gameSystemController != null && gameSystemRB != null) {
+            speedMod = gameSystemRB.velocity.y;
         }
         else{
             speedMod = 0;
@@ -50,7 +57,7 @@ public class PlayerMovementBehavior : MonoBehaviour
 
         float verticalSpeed = rawInput.y * moveSpeedVertical;
 
-        rb.velocity = new Vector2(rawInput.x * moveSpeedHorizontal, rawInput.y * moveSpeedVertical + speedMod);
+        rb.velocity = new Vector2(rawInput.x * moveSpeedHorizontal, rawInput.y * moveSpeedVertical + speedMod * 0.8f);
 
     }
 
