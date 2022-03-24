@@ -44,7 +44,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.1044507, y: 0}
+  m_Offset: {x: -0.1044507, y: -0.15405345}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -55,7 +55,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 13.31952, y: 1}
+  m_Size: {x: 13.31952, y: 1.3081069}
   m_EdgeRadius: 0
 --- !u!1 &1817251332906864348
 GameObject:
@@ -100,6 +100,8 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1817251334449333541}
+  - component: {fileID: 3709944213521749392}
+  - component: {fileID: 22768693906797587}
   m_Layer: 0
   m_Name: GameShipSystem
   m_TagString: Untagged
@@ -123,6 +125,40 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3709944213521749392
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817251334449333594}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5de044e3b40b57c45ace06abc2ccc737, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  movingSpeed: 1
+--- !u!50 &22768693906797587
+Rigidbody2D:
+  serializedVersion: 4
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1817251334449333594}
+  m_BodyType: 0
+  m_Simulated: 1
+  m_UseFullKinematicContacts: 0
+  m_UseAutoMass: 0
+  m_Mass: 1
+  m_LinearDrag: 0
+  m_AngularDrag: 0.05
+  m_GravityScale: 1
+  m_Material: {fileID: 0}
+  m_Interpolate: 0
+  m_SleepingMode: 1
+  m_CollisionDetection: 0
+  m_Constraints: 4
 --- !u!1 &4834343678508809512
 GameObject:
   m_ObjectHideFlags: 0
@@ -167,7 +203,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -8.950485, y: -1.5557675}
+  m_Offset: {x: -9.146553, y: -1.5557675}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -178,7 +214,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.0050545, y: 10.003982}
+  m_Size: {x: 1.3971901, y: 10.003982}
   m_EdgeRadius: 0
 --- !u!1 &5063284856024554768
 GameObject:
@@ -224,7 +260,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -0.09749937, y: -0.098033905}
+  m_Offset: {x: -0.09749937, y: 0.09803414}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -235,7 +271,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 13.4069605, y: 0.8039322}
+  m_Size: {x: 13.4069605, y: 1.1960683}
   m_EdgeRadius: 0
 --- !u!1 &5722105771123909855
 GameObject:
@@ -281,7 +317,7 @@ BoxCollider2D:
   m_IsTrigger: 0
   m_UsedByEffector: 0
   m_UsedByComposite: 0
-  m_Offset: {x: -4.6369886, y: -1.5417631}
+  m_Offset: {x: -4.440921, y: -1.5417633}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0, y: 0}
@@ -292,7 +328,7 @@ BoxCollider2D:
     adaptiveTiling: 0
   m_AutoTiling: 0
   serializedVersion: 2
-  m_Size: {x: 1.117094, y: 10.031992}
+  m_Size: {x: 1.5092299, y: 10.031992}
   m_EdgeRadius: 0
 --- !u!1001 &2694024653385328543
 PrefabInstance:
@@ -305,6 +341,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Playership
       objectReference: {fileID: 0}
+    - target: {fileID: 4349128499068094380, guid: ba74ee0ffee1dfa439617533d3e2ae2e, type: 3}
+      propertyPath: gameSystemController
+      value: 
+      objectReference: {fileID: 3709944213521749392}
     - target: {fileID: 4349128499068094383, guid: ba74ee0ffee1dfa439617533d3e2ae2e, type: 3}
       propertyPath: m_RootOrder
       value: 0

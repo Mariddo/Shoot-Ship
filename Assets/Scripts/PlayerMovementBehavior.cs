@@ -14,6 +14,7 @@ public class PlayerMovementBehavior : MonoBehaviour
 
     [HideInInspector]public PlayerWeaponBehavior playerWeaponBehavior;
 
+    public GameShipSystemController gameSystemController;
 
     // Start is called before the first frame update
     void Start()
@@ -38,7 +39,18 @@ public class PlayerMovementBehavior : MonoBehaviour
 
     void Movement() {
 
-        rb.velocity = new Vector2(rawInput.x * moveSpeedHorizontal, rawInput.y * moveSpeedVertical);
+        float speedMod;
+
+        if(gameSystemController != null) {
+            speedMod = gameSystemController.movingSpeed;
+        }
+        else{
+            speedMod = 0;
+        }
+
+        float verticalSpeed = rawInput.y * moveSpeedVertical;
+
+        rb.velocity = new Vector2(rawInput.x * moveSpeedHorizontal, rawInput.y * moveSpeedVertical + speedMod);
 
     }
 
