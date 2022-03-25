@@ -1,0 +1,958 @@
+Using pre-set license
+Built from '2020.2/release' branch; Version is '2020.2.1f1 (270dd8c3da1c) revision 2559448'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10  (10.0.0) 64bit' Language: 'en' Physical Memory: 11976 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+ COMMAND LINE ARGUMENTS:
+C:\Program Files\Unity\Hub\Editor\2020.2.1f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+C:/Users/jrcro/UnityProjects/Shoot-Ship
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+62349
+Successfully changed project path to: C:/Users/jrcro/UnityProjects/Shoot-Ship
+C:/Users/jrcro/UnityProjects/Shoot-Ship
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 90.54 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.2.1f1 (270dd8c3da1c)
+[Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path C:/Users/jrcro/UnityProjects/Shoot-Ship/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: Intel(R) UHD Graphics (ID=0x8a56)
+    Vendor:   
+    VRAM:     5988 MB
+    Driver:   27.20.100.8681
+Initialize mono
+Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/Managed'
+Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56784
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2020.2.1f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.003403 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 75.09 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.761 seconds
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001211 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 88.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.720 seconds
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.05 seconds
+Refreshing native plugins compatible for Editor in 0.49 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2281 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 101.6 MB.
+System memory in use after: 101.7 MB.
+
+Unloading 27 unused Assets to reduce memory usage. Loaded Objects now: 2724.
+Total: 3.394700 ms (FindLiveObjects: 0.411700 ms CreateObjectMapping: 0.160700 ms MarkObjects: 2.662700 ms  DeleteObjects: 0.157900 ms)
+
+========================================================================
+Received Import Request.
+  path: Assets/Sprites/Bullets/Super Grenade
+  artifactKey: Guid(771bd05e6ab70684fa6dbf3f42c9f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade using Guid(771bd05e6ab70684fa6dbf3f42c9f96b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b2cf6c2b8fcb3863b4de5fde3b9304d8') in 0.014365 seconds
+  Import took 0.022498 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.508724 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png
+  artifactKey: Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png using Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f9d224a2f09e3672e80060017d5cefb') in 0.181747 seconds
+  Import took 0.187366 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.022222 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png
+  artifactKey: Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png using Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '520751ee705a8177dd05bdd015e2bfc2') in 0.023922 seconds
+  Import took 0.030647 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.145192 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png
+  artifactKey: Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png using Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '62abb3161df6d4cdfa9f4de2129d76be') in 0.020667 seconds
+  Import took 0.027993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.975972 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png
+  artifactKey: Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png using Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15687c82b1fef529ed33b5a52add034') in 0.019683 seconds
+  Import took 0.029385 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005481 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png
+  artifactKey: Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png using Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e15687c82b1fef529ed33b5a52add034') in 0.012651 seconds
+  Import took 0.019859 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.306836 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png
+  artifactKey: Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png using Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c950ca0bcfb47e0d26a0bb7058bc86ae') in 0.015189 seconds
+  Import took 0.024117 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010578 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png
+  artifactKey: Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png using Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c950ca0bcfb47e0d26a0bb7058bc86ae') in 0.012522 seconds
+  Import took 0.020977 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 23.988595 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png
+  artifactKey: Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png using Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b10c6eb7b16980546a5b7fdaa14b0') in 0.014272 seconds
+  Import took 0.022980 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.009444 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png
+  artifactKey: Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png using Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7c4b10c6eb7b16980546a5b7fdaa14b0') in 0.012540 seconds
+  Import took 0.017908 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.513607 seconds.
+  path: Assets/Sprites/Background/GreenDebugPalette.prefab
+  artifactKey: Guid(1087c19d6f1849841ad53ba2f4d90807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Background/GreenDebugPalette.prefab using Guid(1087c19d6f1849841ad53ba2f4d90807) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16b98b45c25174caf3c985095814778b') in 0.033058 seconds
+  Import took 0.040221 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 14.493346 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png
+  artifactKey: Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png using Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf6940a52cb6225c6448b8c70109f7d') in 0.016033 seconds
+  Import took 0.024542 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.014164 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png
+  artifactKey: Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png using Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aaf6940a52cb6225c6448b8c70109f7d') in 0.013924 seconds
+  Import took 0.022897 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.181320 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png
+  artifactKey: Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png using Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a056d81e3a87c80f024edd0ac86df4f') in 0.025274 seconds
+  Import took 0.031706 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003853 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png
+  artifactKey: Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png using Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5a056d81e3a87c80f024edd0ac86df4f') in 0.012835 seconds
+  Import took 0.020525 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.885554 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png
+  artifactKey: Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png using Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64792e0a404bf13d46f94c2d0b87216') in 0.014717 seconds
+  Import took 0.021989 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.013227 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png
+  artifactKey: Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png using Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b64792e0a404bf13d46f94c2d0b87216') in 0.014385 seconds
+  Import took 0.021023 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.994216 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png
+  artifactKey: Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png using Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a854bcd661c867719ba498b357076c') in 0.010419 seconds
+  Import took 0.016877 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.016233 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png
+  artifactKey: Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png using Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '27a854bcd661c867719ba498b357076c') in 0.010644 seconds
+  Import took 0.016378 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 22.550154 seconds.
+  path: Assets/Prefabs/GameShipSystem.prefab
+  artifactKey: Guid(731c64865373d704c9b6cc949ad86d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameShipSystem.prefab using Guid(731c64865373d704c9b6cc949ad86d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a844aa507a0793413bcdb4e7061490b') in 0.107523 seconds
+  Import took 0.114367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000398 seconds.
+  path: Assets/Prefabs/Playership.prefab
+  artifactKey: Guid(ba74ee0ffee1dfa439617533d3e2ae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Playership.prefab using Guid(ba74ee0ffee1dfa439617533d3e2ae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563fa6dec4d4690063dc64f312f58f3d') in 0.044823 seconds
+  Import took 0.053734 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001318 seconds.
+  path: Assets/Prefabs/Playership.prefab
+  artifactKey: Guid(ba74ee0ffee1dfa439617533d3e2ae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Playership.prefab using Guid(ba74ee0ffee1dfa439617533d3e2ae2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563fa6dec4d4690063dc64f312f58f3d') in 0.029839 seconds
+  Import took 0.040155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 19.705347 seconds.
+  path: Assets/Prefabs/Bullet Variant.prefab
+  artifactKey: Guid(b3282dee7dd3d314ca9976177f68ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet Variant.prefab using Guid(b3282dee7dd3d314ca9976177f68ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54069c9964f68a40aa335038d0d2204c') in 0.028479 seconds
+  Import took 0.037356 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.011045 seconds.
+  path: Assets/Prefabs/Bullet Variant.prefab
+  artifactKey: Guid(b3282dee7dd3d314ca9976177f68ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet Variant.prefab using Guid(b3282dee7dd3d314ca9976177f68ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54069c9964f68a40aa335038d0d2204c') in 0.015966 seconds
+  Import took 0.022650 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 25.289262 seconds.
+  path: Assets/Prefabs/Super Grenade Bullet.prefab
+  artifactKey: Guid(b3282dee7dd3d314ca9976177f68ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Super Grenade Bullet.prefab using Guid(b3282dee7dd3d314ca9976177f68ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852d8484b3eb9f05e694345a1b3a566e') in 0.024206 seconds
+  Import took 0.032682 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006078 seconds.
+  path: Assets/Prefabs/Super Grenade Bullet.prefab
+  artifactKey: Guid(b3282dee7dd3d314ca9976177f68ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Super Grenade Bullet.prefab using Guid(b3282dee7dd3d314ca9976177f68ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '852d8484b3eb9f05e694345a1b3a566e') in 0.017451 seconds
+  Import took 0.025700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.581583 seconds.
+  path: Assets/Prefabs/Super Grenade Bullet.prefab
+  artifactKey: Guid(b3282dee7dd3d314ca9976177f68ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Super Grenade Bullet.prefab using Guid(b3282dee7dd3d314ca9976177f68ce4d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd821fc7eef1ea9f8a4fdd824cfb8d5a5') in 0.016890 seconds
+  Import took 0.024882 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 59.187860 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41bd4a730e06d2a1a530f71804c84447') in 0.018311 seconds
+  Import took 0.027105 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.039552 seconds.
+  path: ProjectSettings/TagManager.asset
+  artifactKey: Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing ProjectSettings/TagManager.asset using Guid(00000000000000003000000000000000) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e251703af70c1b04da944392d931236b') in 0.005992 seconds
+  Import took 0.015173 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 62.591845 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png
+  artifactKey: Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Bad_Explosion_Placeholder.png using Guid(22d9a60d3b4fe8345a3f57fcdcbe3b9f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2c9763442847121b7eaac283e24672d1') in 0.044186 seconds
+  Import took 0.049745 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 26.904443 seconds.
+  path: Assets/Prefabs/GameShipSystem.prefab
+  artifactKey: Guid(731c64865373d704c9b6cc949ad86d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/GameShipSystem.prefab using Guid(731c64865373d704c9b6cc949ad86d87) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b6643181d15a0473d3c086798089ead3') in 0.029393 seconds
+  Import took 0.036490 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.698834 seconds.
+  path: Assets/Prefabs/Bad_Explosion_Placeholder_0.prefab
+  artifactKey: Guid(d6bdf5b0fb9d0d54096d9fc78cf1dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bad_Explosion_Placeholder_0.prefab using Guid(d6bdf5b0fb9d0d54096d9fc78cf1dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bad_Explosion_Placeholder_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Bad_Explosion_Placeholder_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'f4b50dd16c9431dddab73baf37280717') in 0.025971 seconds
+  Import took 0.034224 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003721 seconds.
+  path: Assets/Prefabs/Bad_Explosion_Placeholder_0.prefab
+  artifactKey: Guid(d6bdf5b0fb9d0d54096d9fc78cf1dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bad_Explosion_Placeholder_0.prefab using Guid(d6bdf5b0fb9d0d54096d9fc78cf1dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bad_Explosion_Placeholder_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Bad_Explosion_Placeholder_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: 'f4b50dd16c9431dddab73baf37280717') in 0.013606 seconds
+  Import took 0.021188 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.300786 seconds.
+  path: Assets/Prefabs/Bad_Explosion_Placeholder_0.prefab
+  artifactKey: Guid(d6bdf5b0fb9d0d54096d9fc78cf1dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bad_Explosion_Placeholder_0.prefab using Guid(d6bdf5b0fb9d0d54096d9fc78cf1dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bad_Explosion_Placeholder_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Bad_Explosion_Placeholder_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '0f0a396692b4e36e31192a32b1c1cba3') in 0.021031 seconds
+  Import took 0.029970 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003826 seconds.
+  path: Assets/Prefabs/Bad_Explosion_Placeholder_0.prefab
+  artifactKey: Guid(d6bdf5b0fb9d0d54096d9fc78cf1dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bad_Explosion_Placeholder_0.prefab using Guid(d6bdf5b0fb9d0d54096d9fc78cf1dc85) Importer(815301076,1909f56bfc062723c751e8b465ee728b) The Animator Controller (Bad_Explosion_Placeholder_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:Internal_InstantiateRemoveAllNonAnimationComponentsSingle (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateRemoveAllNonAnimationComponents (UnityEngine.Object,UnityEngine.Vector3,UnityEngine.Quaternion)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+The Animator Controller (Bad_Explosion_Placeholder_0) you have used is not valid. Animations will not play
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEditor.EditorUtility:InitInstantiatedPreviewRecursive (UnityEngine.GameObject)
+UnityEditor.EditorUtility:InstantiateForAnimatorPreview (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:UpdateGameObject (UnityEngine.Object)
+UnityEditor.GameObjectInspector/PreviewData:.ctor (UnityEngine.Object)
+UnityEditor.GameObjectInspector:GetPreviewData ()
+UnityEditor.GameObjectInspector:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+[C:\buildslave\unity\build\Modules/Animation/Director/AnimatorControllerPlayable.cpp line 332]
+
+ -> (artifact id: '0f0a396692b4e36e31192a32b1c1cba3') in 0.012960 seconds
+  Import took 0.019946 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 265.489688 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png
+  artifactKey: Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade_Projectile.png using Guid(5176d7ebf22f8374b95de3233cbada77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c48def2d29047cf20371fafb10808bf') in 0.023007 seconds
+  Import took 0.033633 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 58.638550 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png
+  artifactKey: Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png using Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f4cc72c05f97ee3f00aa882adec50f') in 0.020260 seconds
+  Import took 0.029462 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.003935 seconds.
+  path: Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png
+  artifactKey: Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Sprites/Bullets/Super Grenade/Grenade-Smoketrail.png using Guid(99417b02cdae6434ea72e0992fd740f8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03f4cc72c05f97ee3f00aa882adec50f') in 0.014257 seconds
+  Import took 0.021615 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 28.707385 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4720ac830adf4146088ea86bf278684') in 0.025048 seconds
+  Import took 0.031086 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010505 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c4720ac830adf4146088ea86bf278684') in 0.013358 seconds
+  Import took 0.019187 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.486826 seconds.
+  path: Assets/Prefabs/Grenade-Smoketrail.prefab
+  artifactKey: Guid(10b2ed45022613e4f9bd3b560e0fab7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade-Smoketrail.prefab using Guid(10b2ed45022613e4f9bd3b560e0fab7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c38aabd17dbfb25c32b2c81998130a') in 0.020272 seconds
+  Import took 0.028961 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.010506 seconds.
+  path: Assets/Prefabs/Grenade-Smoketrail.prefab
+  artifactKey: Guid(10b2ed45022613e4f9bd3b560e0fab7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade-Smoketrail.prefab using Guid(10b2ed45022613e4f9bd3b560e0fab7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd4c38aabd17dbfb25c32b2c81998130a') in 0.013539 seconds
+  Import took 0.019381 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 68.103359 seconds.
+  path: Assets/Scripts/PlayerWeaponBehavior.cs
+  artifactKey: Guid(0a1debf25f598b24bb7cf72812f40db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/PlayerWeaponBehavior.cs using Guid(0a1debf25f598b24bb7cf72812f40db5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c20f0b34923272635e2e1ea1da81023c') in 0.015566 seconds
+  Import took 0.022133 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001394 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.77 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.604 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.67 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 104.8 MB.
+System memory in use after: 104.9 MB.
+
+Unloading 15 unused Assets to reduce memory usage. Loaded Objects now: 2741.
+Total: 2.561500 ms (FindLiveObjects: 0.348500 ms CreateObjectMapping: 0.126300 ms MarkObjects: 1.967600 ms  DeleteObjects: 0.117800 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 309.201446 seconds.
+  path: Assets/Prefabs/Bullet.prefab
+  artifactKey: Guid(7702dab56313af14096c81784770998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Bullet.prefab using Guid(7702dab56313af14096c81784770998d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13228f4146dde21716e9c0aefb5c5709') in 0.116010 seconds
+  Import took 0.126825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000403 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6d10c6757fb1e9f0973ebc13c38b6691') in 0.024131 seconds
+  Import took 0.033213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.913846 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '206addc3e561abbf4b5c578efb11f067') in 0.019199 seconds
+  Import took 0.025815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 9.349924 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '789e401e3265599c02041e4614da9bbf') in 0.014942 seconds
+  Import took 0.020685 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 346.556003 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07fb262250b1b3296bb9d0ec9e5760a') in 0.016061 seconds
+  Import took 0.022750 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.002623 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b07fb262250b1b3296bb9d0ec9e5760a') in 0.004301 seconds
+  Import took 0.012073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 6.557432 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d05afd822885d4aa222950a2f4bd5d') in 0.009089 seconds
+  Import took 0.016151 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.005142 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95d05afd822885d4aa222950a2f4bd5d') in 0.005721 seconds
+  Import took 0.014968 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.535063 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ac6686974f269a5ef6aecf8b388c9e') in 0.011321 seconds
+  Import took 0.022213 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.001545 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a2ac6686974f269a5ef6aecf8b388c9e') in 0.006355 seconds
+  Import took 0.013678 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 8.952524 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511817b09e5f11f1e601dd69d09c3d5d') in 0.008611 seconds
+  Import took 0.015627 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007938 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '511817b09e5f11f1e601dd69d09c3d5d') in 0.008724 seconds
+  Import took 0.014803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 5.280073 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ee9f30d9b0ec76ae8d200183120e8a') in 0.010977 seconds
+  Import took 0.018204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007819 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8ee9f30d9b0ec76ae8d200183120e8a') in 0.006459 seconds
+  Import took 0.013174 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002014 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.74 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.037 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.06 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.0 MB.
+System memory in use after: 105.1 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2745.
+Total: 4.462500 ms (FindLiveObjects: 0.697400 ms CreateObjectMapping: 0.289600 ms MarkObjects: 3.279900 ms  DeleteObjects: 0.193200 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 51.885081 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4442c0ca4596c573a271d6bb507008ce') in 0.132449 seconds
+  Import took 0.141526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.563972 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d06ff1095848f5d8bd520ef6f8a863') in 0.019634 seconds
+  Import took 0.027899 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.007678 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5d06ff1095848f5d8bd520ef6f8a863') in 0.017692 seconds
+  Import took 0.022962 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.060697 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f5bfdc2a1cbf38fdc50cb9a30d6920e7') in 0.014629 seconds
+  Import took 0.020495 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.830893 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5580207ff48551fcdde256796e33abe0') in 0.025488 seconds
+  Import took 0.033306 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.551092 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81a2883c4f75af234f97bd3bd8d17f98') in 0.017628 seconds
+  Import took 0.024335 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.015510 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b046fdc80dd4a5f5a981d48fc9626855') in 0.016712 seconds
+  Import took 0.023892 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.226864 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e846296c438a1ea9549669b2ab7e1de6') in 0.015136 seconds
+  Import took 0.020958 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.804715 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78c6bc37448c3dc9b2c135bfa8a85cb4') in 0.016621 seconds
+  Import took 0.023781 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.404503 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3a78e21b6e04342dd37de03ec005ab9e') in 0.018505 seconds
+  Import took 0.024917 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001474 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.76 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  2.153 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.62 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.1 MB.
+System memory in use after: 105.2 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2749.
+Total: 4.500400 ms (FindLiveObjects: 0.254100 ms CreateObjectMapping: 0.154300 ms MarkObjects: 3.901800 ms  DeleteObjects: 0.188100 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 86.886591 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ba79793da8d723817ea64bda7b921d') in 0.094152 seconds
+  Import took 0.102059 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.613575 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ba155ef5ca92ac5474dedb0f075c4fa9') in 0.017261 seconds
+  Import took 0.025071 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001959 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.17 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.793 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.66 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.3 MB.
+System memory in use after: 105.4 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2753.
+Total: 2.594800 ms (FindLiveObjects: 0.411600 ms CreateObjectMapping: 0.181700 ms MarkObjects: 1.888200 ms  DeleteObjects: 0.112000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002602 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.39 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.508 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.56 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.4 MB.
+System memory in use after: 105.5 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2756.
+Total: 3.484900 ms (FindLiveObjects: 0.444900 ms CreateObjectMapping: 0.164000 ms MarkObjects: 2.665700 ms  DeleteObjects: 0.207700 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001610 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.71 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.741 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.68 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.5 MB.
+System memory in use after: 105.6 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2759.
+Total: 6.923200 ms (FindLiveObjects: 0.405000 ms CreateObjectMapping: 0.262300 ms MarkObjects: 6.094000 ms  DeleteObjects: 0.159300 ms)
+
+========================================================================
+Received Import Request.
+  Time since last request: 102.056391 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab71fdcb8ecdb773be6e0ae9cf3a6696') in 0.033778 seconds
+  Import took 0.040815 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.860989 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff608b9bd80bbccf1027a2a089cfc004') in 0.010495 seconds
+  Import took 0.017354 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008503 seconds.
+  path: Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset
+  artifactKey: Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/ScriptableObjects/SuperGrenadeWeapon.asset using Guid(3d6c2392c78ba7c4399c2c971d2c3f43) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff608b9bd80bbccf1027a2a089cfc004') in 0.008928 seconds
+  Import took 0.017373 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 11.974679 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35cdebdd8fa2b929ba20d61c866d6cb0') in 0.067234 seconds
+  Import took 0.075204 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.193473 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd267e9b105683bc5abde535d8bf06484') in 0.020995 seconds
+  Import took 0.029900 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.006969 seconds.
+  path: Assets/Prefabs/Grenade_Projectile.prefab
+  artifactKey: Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Prefabs/Grenade_Projectile.prefab using Guid(ddf23fba61925914592a70bce24ecafe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd267e9b105683bc5abde535d8bf06484') in 0.019087 seconds
+  Import took 0.026676 seconds .
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.002237 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 0.98 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.965 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.42 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.7 MB.
+System memory in use after: 105.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2763.
+Total: 3.463600 ms (FindLiveObjects: 0.359300 ms CreateObjectMapping: 0.173500 ms MarkObjects: 2.744000 ms  DeleteObjects: 0.185000 ms)
+
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001503 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 1.21 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Invoked RoslynAnalysisRunner static constructor.
+RoslynAnalysisRunner will not be running.
+RoslynAnalysisRunner has terminated.
+Mono: successfully reloaded assembly
+- Completed reload, in  1.531 seconds
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.44 ms, found 1 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 2272 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 105.7 MB.
+System memory in use after: 105.8 MB.
+
+Unloading 13 unused Assets to reduce memory usage. Loaded Objects now: 2766.
+Total: 5.640800 ms (FindLiveObjects: 0.389000 ms CreateObjectMapping: 0.411100 ms MarkObjects: 4.653200 ms  DeleteObjects: 0.184500 ms)
+

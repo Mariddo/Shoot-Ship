@@ -11,16 +11,33 @@ public class BulletBehavior : MonoBehaviour
 
     public float damage;
 
+    public GameObject afterImage;
+    public float afterImageDuration= 0.25f;
+    public float afterImageDelay = 0.1f;
+
+    public bool effectOnDestroy;
+    [HideInInspector]public float destroyLifespan;
+
+    Coroutine afterImageCoroutine, destroyCoroutine;
+
+
     // Start is called before the first frame update
     void Start()
     {
         collider = GetComponent<CapsuleCollider2D>();
+
+        if(afterImage != null)
+        {
+            afterImageCoroutine = StartCoroutine(AfterImage());
+        }
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if(effectOnDestroy && destroyCoroutine == null) {
+            destroyCoroutine = StartCoroutine(BoomEffect());
+        }
     }
 
     public void Hit()
@@ -32,6 +49,25 @@ public class BulletBehavior : MonoBehaviour
 
         Destroy(gameObject);
 
+    }
+
+    IEnumerator AfterImage() {
+
+        while(true) {
+            var afterImageObject = Instantiate(afterImage,transform.position,Quaternion.identity);
+
+            Destroy(afterImageObject, afterImageDuration);
+
+            yield return new WaitForSeconds(afterImageDelay);  
+        }
+
+    }
+
+    IEnumerator BoomEffect() {
+
+        yield return new WaitForSeconds(destroyLifespan);
+
+        Hit();
     }
 
 }

@@ -114,7 +114,14 @@ public class PlayerWeaponBehavior : MonoBehaviour
                      rb.velocity = transform.up * weapon.projectileSpeed;
                 }
 
-                Destroy(instance, weapon.projectileLifetime);
+                if(weapon.explodeOnDestroy) {
+                    bb.effectOnDestroy = true;
+                    bb.destroyLifespan = weapon.projectileLifetime;
+                }
+                else {
+                    Destroy(instance, weapon.projectileLifetime);
+                }
+                
 
     }
 

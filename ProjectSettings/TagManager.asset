@@ -44,3 +44,15 @@ TagManager:
   - name: Default
     uniqueID: 0
     locked: 0
+  - name: EffectUnder
+    uniqueID: 3498930409
+    locked: 0
+  - name: Player
+    uniqueID: 430754595
+    locked: 0
+  - name: PlayerBullet
+    uniqueID: 450335885
+    locked: 0
+  - name: EffectOver
+    uniqueID: 1823814601
+    locked: 0

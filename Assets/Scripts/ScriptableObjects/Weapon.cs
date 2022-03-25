@@ -23,6 +23,8 @@ public class Weapon : ScriptableObject
 
     public float secondaryDamage = 0f;
 
+    public bool explodeOnDestroy = false;
+
 }
 
 
