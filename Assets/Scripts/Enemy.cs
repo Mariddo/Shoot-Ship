@@ -10,10 +10,14 @@ public class Enemy : Character
 
     ScorableBehavior sb;
 
+
+
     // Start is called before the first frame update
     void Start()
     {
         sb = GetComponent<ScorableBehavior>();
+
+        
     }
 
     // Update is called once per frame
@@ -26,13 +30,23 @@ public class Enemy : Character
 
         if(other.transform.tag == "PlayerBullet")
         {
-            Debug.Log("HIT!");
 
             BulletBehavior bb = other.transform.GetComponent<BulletBehavior>();
 
+            float damage = bb.damage;
             bb.Hit();
 
-            TakeDamage(bb.damage);
+            if(hitPoints <= 0)
+            {
+                return;
+
+                
+            }
+            
+            Debug.Log("HIT!");
+            
+            TakeDamage(damage);
+
         } 
         if(other.transform.tag == "PlayerEffect")
         {
