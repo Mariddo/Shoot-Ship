@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Enemy : Character
 {
+    public float collisionDamage = 1.0f;
+    
     // Start is called before the first frame update
     void Start()
     {
@@ -27,6 +29,30 @@ public class Enemy : Character
             bb.Hit();
 
             TakeDamage(bb.damage);
+        } 
+        if(other.transform.tag == "PlayerEffect")
+        {
+            ExplodeBehavior eb = other.transform.GetComponent<ExplodeBehavior>();
+            
+            Debug.Log("BLAST RADIUS!");
+
+            TakeDamage(eb.damage);
         }
+
     }
+
+    void OnTriggerEnter2D(Collider2D other) {
+        if(other.transform.tag == "PlayerEffect")
+        {
+            ExplodeBehavior eb = other.transform.GetComponent<ExplodeBehavior>();
+            
+            Debug.Log("BLAST RADIUS Enemy TriggerEnter2D!");
+
+            TakeDamage(eb.damage);
+        }
+
+    }
+        
+
+        
 }

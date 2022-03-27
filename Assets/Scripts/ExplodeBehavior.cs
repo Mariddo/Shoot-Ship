@@ -5,6 +5,8 @@ using UnityEngine;
 public class ExplodeBehavior : MonoBehaviour
 {
     
+    public float damage;
+
     public bool destroyMe;
     // Start is called before the first frame update
     void Start()
@@ -20,4 +22,16 @@ public class ExplodeBehavior : MonoBehaviour
             Destroy(gameObject);
         }
     }
+
+    void OnTriggerEnter2D(Collider2D other) {
+
+
+            
+        Debug.Log("BLAST RADIUS at EXPLOSION against ENEMY!");
+
+        
+
+    }
+
+
 }

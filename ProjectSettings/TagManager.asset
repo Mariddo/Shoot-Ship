@@ -7,6 +7,12 @@ TagManager:
   - Enemy
   - EnemyBullet
   - PlayerBullet
+  - PlayerEffect
+  - PlayerSpawner
+  - GameManager
+  - GameShipSystem
+  - PlayerSpawner1
+  - PlayerSpawner2
   layers:
   - Default
   - TransparentFX
@@ -18,7 +24,7 @@ TagManager:
   - 
   - Player
   - PlayerBullet
-  - 
+  - PlayerEffect
   - Enemy
   - EnemyBullet
   - 

@@ -18,5 +18,5 @@ MonoBehaviour:
   projectileSpeed: 20
   projectileLifetime: 0.29
   contactDamage: 3
-  secondaryDamage: 0
+  secondaryDamage: 2
   explodeOnDestroy: 1

@@ -18,6 +18,8 @@ public class BulletBehavior : MonoBehaviour
     public bool effectOnDestroy;
     [HideInInspector]public float destroyLifespan;
 
+    public float effectDamage;
+
     Coroutine afterImageCoroutine, destroyCoroutine;
 
 
@@ -44,7 +46,10 @@ public class BulletBehavior : MonoBehaviour
     {
         if(explosionEffect != null)
         {
-            Instantiate(explosionEffect, transform.position, Quaternion.identity);
+            
+            var explodeEffect = Instantiate(explosionEffect, transform.position, Quaternion.identity);
+
+            explodeEffect.GetComponent<ExplodeBehavior>().damage = effectDamage;
         }
 
         Destroy(gameObject);

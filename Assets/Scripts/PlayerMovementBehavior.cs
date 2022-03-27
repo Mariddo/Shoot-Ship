@@ -18,6 +18,8 @@ public class PlayerMovementBehavior : MonoBehaviour
 
     public Rigidbody2D gameSystemRB;
 
+    Player player;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -29,6 +31,21 @@ public class PlayerMovementBehavior : MonoBehaviour
         {
             gameSystemRB = gameSystemController.GetComponent<Rigidbody2D>();
         }
+        else
+        {
+            var gameShipSystemControllers = GameObject.FindGameObjectsWithTag("GameShipSystem");
+            
+            if(gameShipSystemControllers.Length != 1) {
+                Debug.Log("GAME SHIP SYSTEM MALFUNCTION");
+            }
+            else {
+                gameSystemController = gameShipSystemControllers[0].GetComponent<GameShipSystemController>();
+
+                gameSystemRB = gameShipSystemControllers[0].GetComponent<Rigidbody2D>();
+            }
+
+        }
+
     }
 
     // Update is called once per frame
@@ -41,7 +58,6 @@ public class PlayerMovementBehavior : MonoBehaviour
     void OnMove(InputValue value){
 
         rawInput = value.Get<Vector2>();
-        Debug.Log(rawInput);
     }
 
     void Movement() {

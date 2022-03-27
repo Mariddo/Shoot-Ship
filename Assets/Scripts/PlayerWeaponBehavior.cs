@@ -108,6 +108,7 @@ public class PlayerWeaponBehavior : MonoBehaviour
 
                 BulletBehavior bb = instance.GetComponent<BulletBehavior>();
                 bb.damage = weapon.contactDamage;
+                bb.effectDamage = weapon.secondaryDamage;
 
                 if(rb != null)
                 {
@@ -117,6 +118,7 @@ public class PlayerWeaponBehavior : MonoBehaviour
                 if(weapon.explodeOnDestroy) {
                     bb.effectOnDestroy = true;
                     bb.destroyLifespan = weapon.projectileLifetime;
+                    bb.effectDamage = weapon.secondaryDamage;
                 }
                 else {
                     Destroy(instance, weapon.projectileLifetime);
