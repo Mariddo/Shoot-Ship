@@ -13,6 +13,7 @@ GameObject:
   - component: {fileID: 4603531340394500732}
   - component: {fileID: 4603531340394500731}
   - component: {fileID: 4603531340394500733}
+  - component: {fileID: 531536892889921852}
   m_Layer: 11
   m_Name: Target
   m_TagString: Enemy
@@ -145,3 +146,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   hitPoints: 1
+  collisionDamage: 1
+--- !u!114 &531536892889921852
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4603531340394500728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d69e1bf2f20d89641b47abb57e7df74f, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreValue: {fileID: 11400000, guid: 8bd8d9438c9364d46813a2a7e9cc4030, type: 2}

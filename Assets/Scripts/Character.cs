@@ -2,14 +2,9 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-public class Character : MonoBehaviour
+public abstract class Character : MonoBehaviour
 {
     public float hitPoints;
-
-    void Update() {
-
-        CheckForDeath();
-    }
 
     protected void CheckForDeath() {
 
@@ -19,13 +14,5 @@ public class Character : MonoBehaviour
         }
     }
 
-    protected void Die() {
-        Destroy(gameObject);
-    }
-
-    protected void TakeDamage(float damage) {
-
-        hitPoints -= damage;
-        CheckForDeath();
-    }
+    protected abstract void Die();
 }

@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+
+    GameManager gameManager;
     
     public HitPoints hitPoints;
 
@@ -18,6 +20,8 @@ public class Player : MonoBehaviour
 
             hitPoints.value = maxHitPoints;
         }
+
+        gameManager = GameObject.FindGameObjectsWithTag("GameManager")[0].GetComponent<GameManager>();
     }
 
     // Update is called once per frame
@@ -53,6 +57,9 @@ public class Player : MonoBehaviour
     void DeathAnimation() {
 
         Instantiate(deathPrefab, transform.position, transform.rotation);
+
+        gameManager.PlayerDeathSignal();
+
         Destroy(gameObject);
     }
 }
